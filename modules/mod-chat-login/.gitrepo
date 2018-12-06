@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-chat-login.git
+	branch = master
+	commit = 200473b700730a230c28fe82cdeb40622ec2b494
+	parent = 57bf9596255a09efe7d93219191604e11570116d
+	method = merge
+	cmdver = 0.4.0
