@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-reward-shop.git
+	branch = master
+	commit = 3f54d17096af448da300e651a074be06dc73bc13
+	parent = 1d9c423d92ad71b641c15074274a31329d5be9cb
+	method = merge
+	cmdver = 0.4.0
