@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-npc-talent-template.git
+	branch = master
+	commit = bdd1375e6661b89aed74a5ae454694c54e8a94c3
+	parent = 04e9c133d6c22e1b59b85de49dc5ebc72e65c67f
+	method = merge
+	cmdver = 0.4.0
