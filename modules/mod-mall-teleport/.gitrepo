@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-mall-teleport.git
+	branch = master
+	commit = 6cdb68ea966a39bf7a62786f204b4e352a7ee928
+	parent = 9b60bae4a448fe0e3dcbbd89a1d18ecab0a2921c
+	method = merge
+	cmdver = 0.4.0
