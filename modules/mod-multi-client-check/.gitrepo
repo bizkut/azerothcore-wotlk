@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-multi-client-check.git
+	branch = master
+	commit = 104e103aa12f958b770595d8a4469119e107e14d
+	parent = 498dbad51f8fd235c03ee8737a1651d56ffd9271
+	method = merge
+	cmdver = 0.4.0
