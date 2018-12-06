@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-premium.git
+	branch = master
+	commit = 23330eae3dccf1dcaa25f2fc9e58ef8e05000b47
+	parent = 7f0b580820a368e8ebd5c082dee03a89fc925e09
+	method = merge
+	cmdver = 0.4.0
