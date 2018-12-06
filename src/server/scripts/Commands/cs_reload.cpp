@@ -29,6 +29,7 @@ EndScriptData */
 #include "TicketMgr.h"
 #include "WardenCheckMgr.h"
 #include "WaypointManager.h"
+#include "../../../modules/TemplateNPC/src/TemplateNPC.h"
 
 class reload_commandscript : public CommandScript
 {
@@ -142,7 +143,8 @@ public:
             { "waypoint_scripts",             SEC_ADMINISTRATOR, true,  &HandleReloadWpScriptsCommand,                  "" },
             { "waypoint_data",                SEC_ADMINISTRATOR, true,  &HandleReloadWpCommand,                         "" },
             { "vehicle_accessory",            SEC_ADMINISTRATOR, true,  &HandleReloadVehicleAccessoryCommand,           "" },
-            { "vehicle_template_accessory",   SEC_ADMINISTRATOR, true,  &HandleReloadVehicleTemplateAccessoryCommand,   "" }
+            { "vehicle_template_accessory",   SEC_ADMINISTRATOR, true,  &HandleReloadVehicleTemplateAccessoryCommand,   "" },
+            { "template_npc",                 SEC_ADMINISTRATOR, true,  &HandleReloadTemplateNPCCommand,                "" },
         };
         static std::vector<ChatCommand> commandTable =
         {
@@ -1201,6 +1203,18 @@ public:
         sLog->outString("Reloading vehicle_template_accessory table...");
         sObjectMgr->LoadVehicleTemplateAccessories();
         handler->SendGlobalGMSysMessage("Vehicle template accessories reloaded.");
+        return true;
+    }
+
+    static bool HandleReloadTemplateNPCCommand(ChatHandler * handler, const char* /*args*/)
+    {
+        sLog->outString("misc", "Reloading templates for Template NPC table...");
+        sTemplateNpcMgr->LoadTalentsContainer();
+        sTemplateNpcMgr->LoadGlyphsContainer();
+        sTemplateNpcMgr->LoadHumanGearContainer();
+        sTemplateNpcMgr->LoadAllianceGearContainer();
+        sTemplateNpcMgr->LoadHordeGearContainer();
+        handler->SendGlobalGMSysMessage("Template NPC templates reloaded.");
         return true;
     }
 };

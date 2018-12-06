@@ -1950,6 +1950,28 @@ void World::SetInitialWorldSettings()
     mgr = ChannelMgr::forTeam(TEAM_HORDE);
     mgr->LoadChannels();
 
+    // Load templates for Template NPC #1
+    sLog->outString("== TEMPLATE NPC ===========================================================================");
+    sLog->outString("Loading Template Talents...");
+    sTemplateNpcMgr->LoadTalentsContainer();
+
+    // Load templates for Template NPC #2
+    sLog->outString("Loading Template Glyphs...");
+    sTemplateNpcMgr->LoadGlyphsContainer();
+
+    // Load templates for Template NPC #3
+    sLog->outString("Loading Template Gear for Humans...");
+    sTemplateNpcMgr->LoadHumanGearContainer();
+
+    // Load templates for Template NPC #4
+    sLog->outString("Loading Template Gear for Alliances...");
+    sTemplateNpcMgr->LoadAllianceGearContainer();
+
+    // Load templates for Template NPC #5
+    sLog->outString("Loading Template Gear for Hordes...");
+    sTemplateNpcMgr->LoadHordeGearContainer();
+    sLog->outString("== TEMPLATE NPC ===========================================================================");
+
 #ifdef MOD_AH_BOT
     sLog->outString("Initialize AuctionHouseBot...");
     auctionbot->Initialize();
