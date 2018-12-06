@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-keep-out.git
+	branch = master
+	commit = 6b0629f70350442b791ad76547462c5d55fd835d
+	parent = 04a3341fb7ecc6c0cd882854b71557f2450ad602
+	method = merge
+	cmdver = 0.4.0
