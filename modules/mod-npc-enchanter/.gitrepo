@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-npc-enchanter.git
+	branch = master
+	commit = e517fe63c778cfa5a401e0dba5a4a88e1acf878d
+	parent = e381c585011dc3cfc91df467cd4aa389ca3559fb
+	method = merge
+	cmdver = 0.4.0
