@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-phased-duels.git
+	branch = master
+	commit = d44ce0b762a613d4613bc83f13b9078b16f05923
+	parent = 892e922d65619b0659bbbef5a1d8c3e6c62a8cda
+	method = merge
+	cmdver = 0.4.0
