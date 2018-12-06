@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-npc-beastmaster.git
+	branch = master
+	commit = aa4938adefd7aae8446c0e02b4e7b8740db977ed
+	parent = b1b02e0328921ce4f4641f77ce91c3426dd04f3f
+	method = merge
+	cmdver = 0.4.0
