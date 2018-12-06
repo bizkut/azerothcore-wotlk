@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-bg-reward.git
+	branch = master
+	commit = 567a7a1b37725f258fe2c23416b4dfd62f737ad6
+	parent = b9b091114b4c706cbfd1042d93ddc18e91c97260
+	method = merge
+	cmdver = 0.4.0
