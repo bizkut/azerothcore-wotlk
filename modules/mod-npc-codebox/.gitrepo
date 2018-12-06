@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-npc-codebox.git
+	branch = master
+	commit = fc25a9710cee9276d48081afe77f56734ca8810c
+	parent = 5541957a5dc74e93bed4b56706cf1c1956a5e9cf
+	method = merge
+	cmdver = 0.4.0
