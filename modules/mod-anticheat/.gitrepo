@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-anticheat.git
+	branch = master
+	commit = a8166b05076652e86762b5afb01da9bb91b17cd0
+	parent = a3bdd5d5764f74952387083d93ac72765f6d27bc
+	method = merge
+	cmdver = 0.4.0
