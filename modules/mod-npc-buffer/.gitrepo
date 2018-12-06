@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-npc-buffer.git
+	branch = master
+	commit = 97489a423eb468342c9422b34dbe063efe021ac3
+	parent = b5e8ca30c08eaae6e221171146cacedc046de1a1
+	method = merge
+	cmdver = 0.4.0
