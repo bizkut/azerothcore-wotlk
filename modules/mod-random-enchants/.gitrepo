@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-random-enchants.git
+	branch = master
+	commit = d2f348fcd0cdd24b34c92fdc050d596a910d1d1b
+	parent = f58d21b861818b9dc58eac218a6707fb9309c7e6
+	method = merge
+	cmdver = 0.4.0
