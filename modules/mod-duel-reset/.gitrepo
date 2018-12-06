@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-duel-reset.git
+	branch = master
+	commit = 2accd7dea6d1f36e4fff33e401a5410e7f228bbf
+	parent = c0c1555e7a0d23980a4c8ee014fcda17461ec96f
+	method = merge
+	cmdver = 0.4.0
