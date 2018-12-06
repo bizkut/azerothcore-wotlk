@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-buff-command.git
+	branch = master
+	commit = 4b77265ce7dbb94cf2ecfb34ba7ccb9bf3718f51
+	parent = 5d5ee4a5c09c7448549d0a727d2dd74437f2bdd1
+	method = merge
+	cmdver = 0.4.0
