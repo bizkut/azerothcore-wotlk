@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-instance-reset.git
+	branch = master
+	commit = 6089850087ceb54e7a13cbdb08d6c92afd9d5607
+	parent = 9635a2712cc9e507d0ba5d7d5a9fc3407ce63a58
+	method = merge
+	cmdver = 0.4.0
