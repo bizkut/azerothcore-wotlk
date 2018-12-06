@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-solocraft.git
+	branch = master
+	commit = 0bfe55bd030e424626c951ee3e5ae3d9ff419862
+	parent = 12d53490fd26b760748d3330e141b92e946548d6
+	method = merge
+	cmdver = 0.4.0
