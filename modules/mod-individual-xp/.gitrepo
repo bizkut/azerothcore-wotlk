@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-individual-xp.git
+	branch = master
+	commit = 6321d1411751000ca1c3e0b06a968671a67f1ec1
+	parent = 26d79300d56cbe2827e7d0ec3ff0a47e2cbc808d
+	method = merge
+	cmdver = 0.4.0
