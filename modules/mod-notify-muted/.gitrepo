@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-notify-muted.git
+	branch = master
+	commit = 4da78134becda47c230ebf88284d76580b530a47
+	parent = 06cf8f4d4fa7b5a9df613007a3c34cf1ea612fad
+	method = merge
+	cmdver = 0.4.0
