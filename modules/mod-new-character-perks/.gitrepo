@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-new-character-perks.git
+	branch = master
+	commit = ca35c2b7b948fb3c8632aeea1e5e07c00e740b1b
+	parent = 33f8547daa2671cac828fa4c1a4cb81f7678d4bc
+	method = merge
+	cmdver = 0.4.0
