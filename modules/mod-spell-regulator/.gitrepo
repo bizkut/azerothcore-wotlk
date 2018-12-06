@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-spell-regulator.git
+	branch = master
+	commit = 17fd82bced972ba3ebbe33da810d8667135b22f8
+	parent = 3265c38e734d1bbaa868413c0c558d5530619ded
+	method = merge
+	cmdver = 0.4.0
