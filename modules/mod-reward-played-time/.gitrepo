@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-reward-played-time.git
+	branch = master
+	commit = 01c489010c7f63e91b2d27b197a869915d5a1ddc
+	parent = 5d07eab207372323b1057a995f40c69dc64f7194
+	method = merge
+	cmdver = 0.4.0
