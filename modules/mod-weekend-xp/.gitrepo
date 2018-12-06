@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-weekend-xp.git
+	branch = master
+	commit = b8ae079ea97b8d6cfc5571b836f93b5d723da5ed
+	parent = ec7bbc1d5361aea70fb12261873528eb463e11fc
+	method = merge
+	cmdver = 0.4.0
