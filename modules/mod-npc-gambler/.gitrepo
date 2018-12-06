@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-npc-gambler.git
+	branch = master
+	commit = 7f7a4551dad84c894ce04ffc643e85372f31c1bb
+	parent = cc89a5a2c551ecb545e3db76e9fed72330ab6a50
+	method = merge
+	cmdver = 0.4.0
