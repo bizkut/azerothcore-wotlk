@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-money-for-kills.git
+	branch = master
+	commit = daf204ad3479bb3caa45a8e519608932bd835500
+	parent = e268dc1750f2a3415eac588206e32ecabdeb2138
+	method = merge
+	cmdver = 0.4.0
