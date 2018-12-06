@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-npc-titles-tokens.git
+	branch = master
+	commit = 9639534d6cbcbf183b1fdc652da0c6d0bf262cfe
+	parent = b20900cda5a8534b8ec1c372c2143feb59936615
+	method = merge
+	cmdver = 0.4.0
