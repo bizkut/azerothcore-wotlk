@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-transmog.git
+	branch = master
+	commit = ec7ac719a1b398ab3b87a830cf63d9081a74a727
+	parent = 0d756b3f00dbc16d9849015b5523766982b9acbc
+	method = merge
+	cmdver = 0.4.0
