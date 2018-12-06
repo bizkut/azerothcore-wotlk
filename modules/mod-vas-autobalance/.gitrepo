@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-vas-autobalance.git
+	branch = master
+	commit = c6a83bb5ab1ee914b5a2715661d35aab0ab79f88
+	parent = b67cd5bd6b9e767331ad47aa3fd07b77d263edd2
+	method = merge
+	cmdver = 0.4.0
