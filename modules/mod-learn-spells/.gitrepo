@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-learn-spells.git
+	branch = master
+	commit = 862a28307eaa5c3508fa0b9777081b95d79ee5b9
+	parent = 8dda228c9a37753103e4f187fa1b61d940645953
+	method = merge
+	cmdver = 0.4.0
