@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-fireworks-on-level.git
+	branch = master
+	commit = daa312b3ad59458d3bc3bcda5a99b2315a83a170
+	parent = 02066a50219738d391848364f4c167310550a2d9
+	method = merge
+	cmdver = 0.4.0
