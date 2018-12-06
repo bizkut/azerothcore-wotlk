@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-auto-revive.git
+	branch = master
+	commit = fbe061a701076e7b20422e6cd7ad52f04f76f13e
+	parent = 228c74aaa934c8c9e393fd719cf3c967347c5ffb
+	method = merge
+	cmdver = 0.4.0
