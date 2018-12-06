@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-account-achievements.git
+	branch = master
+	commit = c101d372349eaeee2cbbf50c68eda0344ccf6eab
+	parent = 88039f1e508cfe385f7d9058cf7930e8e33cd44c
+	method = merge
+	cmdver = 0.4.0
