@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-gm-security.git
+	branch = master
+	commit = 641992b6a634cee596b665403e7a9560624f934c
+	parent = 815eaa0231dbc6673e9c3c42d2efbf7f2cc7556d
+	method = merge
+	cmdver = 0.4.0
