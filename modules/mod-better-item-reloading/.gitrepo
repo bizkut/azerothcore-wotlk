@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-better-item-reloading.git
+	branch = master
+	commit = 160b70e467c40a9d07587248575730bd19892f93
+	parent = 954de39c34aaca672f4301ca1ffd3fcf96ad9618
+	method = merge
+	cmdver = 0.4.0
