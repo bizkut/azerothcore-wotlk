@@ -1337,14 +1337,14 @@ void World::SetInitialWorldSettings()
     ///- Initialize Lua Engine
     sLog->outString("Initialize Eluna Lua Engine...");
 
-    std::string conf_path = _CONF_DIR;
-    std::string cfg_file = conf_path + "/mod_LuaEngine.conf";
+    //std::string conf_path = _CONF_DIR;
+    //std::string cfg_file = conf_path + "/mod_LuaEngine.conf";
 #ifdef WIN32
     cfg_file = "mod_LuaEngine.conf";
 #endif
-    std::string cfg_def_file = cfg_file + ".dist";
-    sConfigMgr->LoadMore(cfg_def_file.c_str());
-    sConfigMgr->LoadMore(cfg_file.c_str());
+    //std::string cfg_def_file = cfg_file + ".dist";
+    //sConfigMgr->LoadMore(cfg_def_file.c_str());
+    //sConfigMgr->LoadMore(cfg_file.c_str());
     Eluna::Initialize();
 #endif
 
@@ -1701,14 +1701,14 @@ void World::SetInitialWorldSettings()
     sAchievementMgr->LoadCompletedAchievements();
 
 #ifdef MOD_AH_BOT
-    std::string conf_path = _CONF_DIR;
-    std::string cfg_file = conf_path + "/mod_ahbot.conf";
+    //std::string conf_path = _CONF_DIR;
+    //std::string cfg_file = conf_path + "/mod_ahbot.conf";
 #ifdef WIN32
     cfg_file = "mod_ahbot.conf";
 #endif
-    std::string cfg_def_file = cfg_file + ".dist";
-    sConfigMgr->LoadMore(cfg_def_file.c_str());
-    sConfigMgr->LoadMore(cfg_file.c_str());
+    //std::string cfg_def_file = cfg_file + ".dist";
+    //sConfigMgr->LoadMore(cfg_def_file.c_str());
+    //sConfigMgr->LoadMore(cfg_file.c_str());
 
     // Initialize AHBot settings before deleting expired auctions due to AHBot hooks
     auctionbot->InitializeConfiguration();
@@ -1949,28 +1949,6 @@ void World::SetInitialWorldSettings()
     mgr->LoadChannels();
     mgr = ChannelMgr::forTeam(TEAM_HORDE);
     mgr->LoadChannels();
-
-    // Load templates for Template NPC #1
-    sLog->outString("== TEMPLATE NPC ===========================================================================");
-    sLog->outString("Loading Template Talents...");
-    sTemplateNpcMgr->LoadTalentsContainer();
-
-    // Load templates for Template NPC #2
-    sLog->outString("Loading Template Glyphs...");
-    sTemplateNpcMgr->LoadGlyphsContainer();
-
-    // Load templates for Template NPC #3
-    sLog->outString("Loading Template Gear for Humans...");
-    sTemplateNpcMgr->LoadHumanGearContainer();
-
-    // Load templates for Template NPC #4
-    sLog->outString("Loading Template Gear for Alliances...");
-    sTemplateNpcMgr->LoadAllianceGearContainer();
-
-    // Load templates for Template NPC #5
-    sLog->outString("Loading Template Gear for Hordes...");
-    sTemplateNpcMgr->LoadHordeGearContainer();
-    sLog->outString("== TEMPLATE NPC ===========================================================================");
 
 #ifdef MOD_AH_BOT
     sLog->outString("Initialize AuctionHouseBot...");
