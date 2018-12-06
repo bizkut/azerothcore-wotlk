@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-emblem-transfer.git
+	branch = master
+	commit = acd8cf4ecdaab0c089c486f9594134d281ee578e
+	parent = 940aeecd8fbea205f7c22bb89c74a0ec3b9dde84
+	method = merge
+	cmdver = 0.4.0
