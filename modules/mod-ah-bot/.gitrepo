@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-ah-bot.git
+	branch = master
+	commit = e3f21b42a78e6e5a55d25a31e6fe82ce7c8a822b
+	parent = 85ed55e9ec85ec14699fc0556d889695d55b5c3a
+	method = merge
+	cmdver = 0.4.0
