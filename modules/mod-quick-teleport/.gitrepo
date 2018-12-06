@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-quick-teleport.git
+	branch = master
+	commit = 936e451883b066a7369c234bdc53cf882bdc24b8
+	parent = 74da443b3abccaac13a6f696f88ceb06b549b280
+	method = merge
+	cmdver = 0.4.0
