@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-pvpscript.git
+	branch = master
+	commit = 5a846d0c1acaa7af2d97f64aa05d4a12ae4ca0ed
+	parent = 3129961694d1f4049142a2df6c27d2ed1116c834
+	method = merge
+	cmdver = 0.4.0
