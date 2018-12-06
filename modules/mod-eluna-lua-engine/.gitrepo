@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-eluna-lua-engine.git
+	branch = master
+	commit = 93dd4b5f285e0d64a584835582e439d04cd4a2de
+	parent = b387dddb67d4080252db4191b121d9ef2c76dfa5
+	method = merge
+	cmdver = 0.4.0
