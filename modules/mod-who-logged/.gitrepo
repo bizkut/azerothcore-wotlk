@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/azerothcore/mod-who-logged.git
+	branch = master
+	commit = a074f473b83e8e6190a0211cd2eef97297cdfbd7
+	parent = f1bb4596c490c10060aa1026e933609fe537b85c
+	method = merge
+	cmdver = 0.4.0
